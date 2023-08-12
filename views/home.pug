@@ -1,0 +1,52 @@
+extends base.pug     
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+      style 
+         include ../static/style.css
+
+block content 
+   
+
+          
+    section#introSection 
+             div  Welcome to Pranav's Dance Academy 
+             .small  ('ABCD') AnyBody Can Dance
+
+    section#missonsSection 
+          h2 Our mission
+          div.card
+               h3  Dance Perfection
+               div.card-box 
+                    div.card-img
+                      img(src="/static/2 (2).jpg", alt="")
+                    div.card.content
+                      p this is the Best dance acdemy in pune 
+          div.card
+               h3  Dance the way you like 
+               div.card-box 
+                    div.card-img
+                      img(src="/static/1 (2).jpg", alt="")
+                    div.card.content
+                      p this is the Best dance acdemy in pune 
+          div.card
+               h3  Expert teaching 
+               div.card-box 
+                    div.card-img
+                      img(src="/static/3 (2).jpg", alt="")
+                    div.card.content
+                      p this is the Best dance acdemy in pune 
+
+    section#sponsorsSection 
+            h2  Our sponsors 
+            div#sponsers
+                img(src="/static/apple.png", alt="sponser img", Class="spImage")
+                img(src="/static/hp.png", alt="sponser img", Class="spImage")
+                img(src="/static/micrsoft.jpg", alt="sponser img", Class="spImage")
+
+    
+    //- footer#footer 
+    //-        footer#footer
+    //-          | Copyright © 2022 PranavAcademy.com | All Rights Reserved
